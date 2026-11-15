@@ -1,0 +1,11 @@
+[package]
+name = "code-trail-core"
+version = "0.1.0"
+edition = "2024"
+
+[lib]
+path = "src/lib.rs"
+
+[dependencies]
+tree-sitter = "0.25"
+tree-sitter-java = "0.23"

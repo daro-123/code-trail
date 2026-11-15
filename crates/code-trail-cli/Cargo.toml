@@ -1,0 +1,13 @@
+[package]
+name = "code-trail-cli"
+version = "0.1.0"
+edition = "2024"
+
+[[bin]]
+name = "code-trail"
+path = "src/main.rs"
+
+[dependencies]
+code-trail-core = { path = "../code-trail-core" }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
